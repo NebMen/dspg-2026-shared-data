@@ -47,3 +47,14 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# =========================================================================
+# DSPG Shared Database Restrictions - Blocks heavy files from crashing Git
+# =========================================================================
+*.csv
+*.xlsx
+*.zip
+*.tar.gz
+*.sqlite
+*.db
+*.rds
